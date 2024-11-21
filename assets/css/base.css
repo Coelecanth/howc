@@ -2,14 +2,32 @@
 
 
 body {
-    /* height: calc(100vh - 164px); 
-    height: calc(100vh - 164px);  */
+    background: url('../img/board.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 230px); 
     background-color: #000000;
     font-family: 'Titillium Web';
 }
+
+html {
+    height: 90%;
+}
+
 .titillium {
     font-family: "Titillium Web";
 }
+
+.img-max {
+    max-height: 130px;  
+}
+
+.logo-max {
+    max-height: 110px;  
+}
+
+/* .cont-size {
+    min-height: 1200px;  
+    } */
 
 
 .det-heading {
@@ -42,15 +60,18 @@ body {
 
 /* used to format back ground  for displaying image/text  */
 .banner-panel {
-    top: 20%;
-    background: url('../img/board.jpg') no-repeat center center fixed;
-    position: relative;    
-    position: relative;
-    width:80%;
-    background-color: #00537c;
-    left: 10%;
-    
+    top: 230px;
+    position: fixed;    
+    width:60%;
+    background-color: #000000;
+    left: 20%;
+}
 
 .header-container {
-    min-height: 200px;
+    padding-top: 220px;
+}
+
+.monochrome {
+    filter: grayscale(100%); /* Convert to black and white */
+    transition: filter 0.5s ease; /* Smooth transition for effects */
 }
