@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+html {
+    height: 100%;
+}
 
 body {
     background: url('../img/board.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 230px); 
+    height: calc(100vh - 196px); 
     background-color: #000000;
     font-family: 'Titillium Web';
-}
-
-html {
-    height: 90%;
 }
 
 .titillium {
@@ -18,16 +17,12 @@ html {
 }
 
 .img-max {
-    max-height: 130px;  
+    max-height: 200px;  
 }
 
 .logo-max {
     max-height: 110px;  
 }
-
-/* .cont-size {
-    min-height: 1200px;  
-    } */
 
 
 .det-heading {
@@ -60,18 +55,14 @@ html {
 
 /* used to format back ground  for displaying image/text  */
 .banner-panel {
-    top: 230px;
-    position: fixed;    
-    width:60%;
+    top: 200px;
+    position: relative;    
+    width:75%;
     background-color: #000000;
-    left: 20%;
+    left: 12.5%;
 }
 
 .header-container {
     padding-top: 220px;
 }
 
-.monochrome {
-    filter: grayscale(100%); /* Convert to black and white */
-    transition: filter 0.5s ease; /* Smooth transition for effects */
-}
