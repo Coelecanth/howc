@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/static/img/river.avif ') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px); 
+    color: #FFFFFF;
+    font-family: 'Titillium Web';
+}
+.titillium {
+    font-family: "Titillium Web";
+}
+
+.det-heading {
+    text-align: center;
+    
+}
+
+.text-upc {
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.text-chk-emph {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+
+/* used to format back ground colour containers in banner.html for displaying text  */
+.banner-panel {
+    top: 20%;
+    position: relative;
+    width: 75%;
+    background-color: #00537c;
+    position: relative;
+    left: 12.5%;
+    border-radius: 1em;
+    padding: 0.5em 0;
+}
+
+.inner-panel {
+    width: 98%;
+    background-color: #001242;
+    min-height: 98%;
+    margin: auto;
+    border-radius: 0.5em;
+    padding: 1em 0;
+    position: relative;
+
+
