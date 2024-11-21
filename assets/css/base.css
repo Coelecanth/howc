@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    
-    height: calc(100vh - 164px); 
+    /* height: calc(100vh - 164px); 
+    height: calc(100vh - 164px);  */
     color: #000000;
     font-family: 'Titillium Web';
 }
