@@ -43,20 +43,14 @@ body {
 /* used to format back ground  for displaying image/text  */
 .banner-panel {
     top: 20%;
-    background: url('assets/img/board.jpg') no-repeat center center fixed;
-    background-size: cover;
-    min-height: 150px;
+    background: url('../img/board.jpg') no-repeat center center fixed;
+    position: relative;    
     position: relative;
     width:80%;
     background-color: #00537c;
-    position: relative;
     left: 10%;
-    border-radius: 1em;
-    padding: 0.5em 0;
-}
+    
 
 .header-container {
-    
+    min-height: 200px;
 }
-
-
