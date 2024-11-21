@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-html {
-    height: 100%;
-}
 
 body {
     /* height: calc(100vh - 164px); 
     height: calc(100vh - 164px);  */
-    color: #000000;
+    background-color: #000000;
     font-family: 'Titillium Web';
 }
 .titillium {
     font-family: "Titillium Web";
 }
 
-.logo-size {
-    max-width: 160px;
-     
-}
+
 .det-heading {
     text-align: center;
     
@@ -49,7 +43,7 @@ body {
 /* used to format back ground  for displaying image/text  */
 .banner-panel {
     top: 20%;
-    background: url('/assets/img/board.jpg') no-repeat center center fixed;
+    background: url('assets/img/board.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 150px;
     position: relative;
