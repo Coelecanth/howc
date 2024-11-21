@@ -7,13 +7,17 @@ html {
 body {
     
     height: calc(100vh - 164px); 
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Titillium Web';
 }
 .titillium {
     font-family: "Titillium Web";
 }
 
+.logo-size {
+    max-width: 160px;
+     
+}
 .det-heading {
     text-align: center;
     
@@ -44,6 +48,7 @@ body {
 
 /* used to format back ground  for displaying image/text  */
 .banner-panel {
+    top: 20%;
     background: url('/assets/img/board.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 150px;
@@ -56,6 +61,8 @@ body {
     padding: 0.5em 0;
 }
 
-
+.header-container {
+    
+}
 
 
