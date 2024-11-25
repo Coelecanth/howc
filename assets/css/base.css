@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: url('../img/board-fade.jpg') no-repeat center center fixed;
+    background: url('../img/board-fade-light.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 196px); 
     background-color: #000000;
@@ -73,6 +73,7 @@ body {
     width:75%;
     background-color: #000000;
     left: 12.5%;
+    border-radius: 1em;
 }
 
 .header-container {
