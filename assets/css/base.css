@@ -56,6 +56,14 @@ body {
     text-transform: uppercase;
 }
 
+.text-copyr {
+    color: #6E6E6E;
+    font-size: 0.9rem;
+    text-align: center;
+    
+}
+
+
 .text-white {
     color: #FFFFFF;
 }
