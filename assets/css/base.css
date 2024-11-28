@@ -121,8 +121,30 @@ body {
     padding-top: 160px;
 }
 
- /*------------apply background gradeint to give subtle fade on Hero Banner for index, and FAQ-----*/
- .grad {
-    background: rgb(99,96,90);
-    background: linear-gradient(0deg, rgba(99,96,90,1) 0%, rgba(71,70,78,1) 14%, rgba(2,0,36,1) 100%);
- }
+
+ /* -------------------------------- Media Queries */
+
+  /* applies format changes to small screens on mobile */
+  @media (max-width: 991px) {
+      .banner-panel {
+          
+          position: relative;
+          width: 95%;
+          position: relative;
+          left: 2.5%;
+          border-radius: 1em;
+          padding: 0.5em 0;
+      }
+      
+      
+      body {
+          height: calc(100vh - 116px);
+          background: url('../img/board-fade-light.jpg') no-repeat center center fixed;
+          background-size: cover;
+          background-color: #000000;
+          font-family: 'Titillium Web';
+      }
+  
+      
+  }    
+  
