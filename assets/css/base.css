@@ -29,6 +29,15 @@ body {
 .logo-max {
     max-height: 110px;  
 }
+.custom-caption {
+    top: 0; /* Move to the top */
+    bottom: auto; /* Remove default bottom alignment */
+    transform: translateY(0); /* Remove vertical centering */
+    text-align: center; /* Optional: Align text to the left */
+    padding-top: 1rem; /* Optional: Add some padding from the top */
+}
+
+
 
 /* BS Navbar custom colours */
 .navbar-black {
@@ -59,7 +68,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #000;
 }
 
 /* used to color buttons in navabr on hover */
