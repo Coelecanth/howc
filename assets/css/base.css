@@ -36,6 +36,9 @@ body {
     text-align: center; /* Optional: Align text to the left */
     padding-top: 1rem; /* Optional: Add some padding from the top */
 }
+.modal {
+    z-index: 1055; /* Default Bootstrap modal z-index */
+}
 
 
 

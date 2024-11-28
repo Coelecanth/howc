@@ -39,6 +39,17 @@
                         alt="Responsive Logo image">
                 </a>
             </div>
+            <!-- insert point -->
+            <div class="navbar-black text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn mx-3 text-white cust-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <strong>
+                        What is Flamingo Agogo Art Studio 
+                    </strong><i class="fa-solid fa-caret-down"></i>
+                </button>
+
+            </div>
 
             <nav class="navbar navbar-expand-lg navbar-black" aria-label="middle-nav">
                 <div class="container-fluid">
@@ -92,48 +103,52 @@
                                     <li><a href="other.html" class="dropdown-item">Other</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle mx-3 text-white cust-btn" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <strong>Flamingo Agogo Art Studio?</strong>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><p>
-                                        The below portraits are the people who in spired me on my journey as an artist.
-                                    </p>
-                                    <p class="text-start">
-                                        Lorem ipsum odor amet, consectetuer adipiscing elit. Maecenas justo ante taciti quis ad justo
-                                        donec dapibus.
-                                        Nam sodales tincidunt lorem lectus fringilla venenatis varius. Iaculis consequat purus phasellus
-                                        cursus
-                                        egestas viverra montes convallis. Nulla ad ante efficitur pellentesque sollicitudin quisque
-                                        montes habitasse.
-                                        Magnis non duis iaculis, egestas tempor lectus. Potenti consequat aptent parturient;
-                                        felis cubilia in nostra amet? Conubia facilisis vitae potenti, pretium nulla varius vel
-                                        adipiscing. Praesent pulvinar euismod metus nisi facilisi sed volutpat.
-                                    </p></li>
-                                </ul>
-                            </li>
                         </ul>
                     </div>
-                    
                 </div>
-                
             </nav>
+            
         </nav>
     </header>
 
-    <!-- carousel starts here  -->
+    <!-- Modal placed outside navbar -->
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    falmingo is about Lorem ipsum odor amet, consectetuer adipiscing elit. Maecenas
+                    justo ante taciti quis ad justo
+                    donec dapibus.
+                    Nam sodales tincidunt lorem lectus fringilla venenatis varius. Iaculis consequat
+                    purus phasellus
+                    cursus
+                    egestas viverra montes convallis. Nulla ad ante efficitur pellentesque
+                    sollicitudin quisque
+                    montes habitasse.
+                    Magnis non duis iaculis, egestas tempor lectus. Potenti consequat aptent
+                    parturient;
+                    felis cubilia in nostra amet? Conubia facilisis vitae potenti, pretium nulla
+                    varius vel
+                    adipiscing. Praesent pulvinar euismod metus nisi facilisi sed volutpat.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <!-- carousel starts here  -->
     <div class="ban-panel-car">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active custom-caption"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="custom-caption"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="custom-caption"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active custom-caption" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    class="custom-caption" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="custom-caption" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -155,7 +170,7 @@
                     <div class="carousel-caption custom-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
-                   </div>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -174,8 +189,8 @@
 
     <!-- Bootstrap js scipt  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
