@@ -26,6 +26,11 @@ body {
     max-height: 250px;  
 }
 
+.img-max-mod {
+    max-height: 70px;  
+}
+
+
 .logo-max {
     max-height: 110px;  
 }
