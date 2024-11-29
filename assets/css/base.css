@@ -1,6 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-*/
-@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Slabo+13px&display=swap');
 
 html {
     height: 100%;
@@ -11,13 +10,15 @@ body {
     background-size: cover;
     height: calc(100vh - 190px); 
     background-color: #000000;
-    font-family: 'Titillium Web';
+    font-family: 'Slabo 13px';
 }
 
-.titillium {
-    font-family: "Titillium Web";
+.slabo {
+    font-family: "Slabo 13px";
 }
-
+.noticia {
+    font-family: "Noticia Text";
+}
 .bokor {
     font-family: "Bokor";
 }
@@ -29,7 +30,6 @@ body {
 .img-max-mod {
     max-height: 70px;  
 }
-
 
 .logo-max {
     max-height: 110px;  
@@ -45,7 +45,7 @@ body {
     z-index: 1055; /* Default Bootstrap modal z-index */
 }
 
-
+/* =================== nav bar customisation settinga ==================================================== */
 
 /* BS Navbar custom colours */
 .navbar-black {
@@ -59,18 +59,11 @@ body {
     border-color: white; /* Make the border white */
 }
 
-
-
+/* ============ general text setting used through out site- detailed settings see below ================== */
 .text-upc {
     text-transform: uppercase;
 }
 
-.text-copyr {
-    color: #6E6E6E;
-    font-size: 0.9rem;
-    text-align: center;
-    
-}
 .text-white {
     color: #FFFFFF;
 }
@@ -78,6 +71,8 @@ body {
 .text-black {
     color: #000;
 }
+
+/* ======================== formating for buttons and banners============================================= */
 
 /* used to color buttons in navabr on hover */
 .cust-btn:hover {
@@ -97,12 +92,10 @@ body {
     border-color: white;   /* Keep border white */
 }
 
-
-
 .border-black {
     border: 1px solid black !important;
 }
-
+/* ==========text classes used to modify or change various texts blocks========== */
 .text-emph {
     font-weight: 700;
     color: #FFFFFF;
@@ -114,14 +107,28 @@ body {
     font-size: 1.3rem;
 }
 
-
 .text-infom {
     color: #b8aaaa;
     font-size: 0.9rem;
 }
+.text-emph-mod {
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.text-copyr {
+    color: #6E6E6E;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.text-mod {
+    font-size: 0.9rem;
+}
 
 
-/* used to format back ground  for displaying image/text  */
+/* used to format back ground banner panel for displaying image/text  */
 .banner-panel {
     top: 50px;
     position: relative;     
@@ -139,7 +146,7 @@ body {
         border-radius: 1em;
 }
 
-
+/* used for positioining on page - see media queries below */
 .header-container {
     padding-top: 160px;
 }
@@ -166,7 +173,7 @@ body {
           background: url('../img/board-fade-light.jpg') no-repeat center center fixed;
           background-size: cover;
           background-color: #000000;
-          font-family: 'Titillium Web';
+          font-family: 'Slabo 13px';
       }
     } 
       
