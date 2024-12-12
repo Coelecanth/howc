@@ -26,6 +26,14 @@ body {
     max-height: 250px;  
 }
 
+.img-max-art {
+    max-width: 175px; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
 .img-max-mod {
     max-height: 100px;  
 }
@@ -150,6 +158,16 @@ body {
         background-color: #000000;
         border-radius: 1em;
 }
+.banner-panel-art {
+    top: 50px;
+    position: relative;     
+    width:90%;
+    background-color: #000000;
+    left: 5%;
+    border-radius: 1em;
+}
+
+
 
 /* used for positioining on page - see media queries below */
 .header-container {
