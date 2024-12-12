@@ -27,11 +27,11 @@ body {
 }
 
 .img-max-mod {
-    max-height: 70px;  
+    max-height: 100px;  
 }
 
 .logo-max {
-    max-height: 110px;  
+    max-height: 125px;  
 }
 .custom-caption {
     top: 0; /* Move to the top */

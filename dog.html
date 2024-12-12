@@ -29,7 +29,6 @@
             <div class="col"></div>
         </div>
     </div>
-
     <header>
         <nav class="fixed-top navbar-expand-lg navbar-black" aria-label="fixed-top-nav">
             <h1 class="d-none d-lg-block text-white text-center my-3 bokor display-4">House of Wild Cards</h1>
@@ -38,6 +37,17 @@
                     <img src="assets/img/howc.jpg" class="d-sm-block d-lg-none img-fluid rounded logo-max my-3"
                         alt="Responsive Logo image">
                 </a>
+            </div>
+            <!-- insert point -->
+            <div class="navbar-black text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn mx-3 text-white cust-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <strong>
+                        The Dog Leg Gallery
+                    </strong><i class="fa-solid fa-caret-down"></i>
+                </button>
+
             </div>
 
             <nav class="navbar navbar-expand-lg navbar-black" aria-label="middle-nav">
@@ -50,7 +60,8 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active text-white mx-3 cust-btn" aria-current="home-page" href="index.html">
+                                <a class="nav-link active text-white mx-3 cust-btn" aria-current="home-page"
+                                    href="index.html">
                                     <i class="fa-solid fa-house"></i>
                                 </a>
                             </li>
@@ -98,6 +109,39 @@
             </nav>
         </nav>
     </header>
+    <!-- Modal placed outside navbar -->
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="text-center noticia"><img src="assets/img/dog.jpg"
+                            class="img-fluid rounded img-max-mod my-3" alt="Responsive Logo image">
+                        <br> Dog Leg Gallery
+                    </h4>
+                    <hr>
+                    <div class="noticia text-emph-mod"> What is the Dog Leg Gallery </div>
+                    <p class="ms-2 text-mod">
+                        Dog Leg Gallery is a distinctive art space nestled within the corridors that connect the various
+                        rooms of the House of Wild Cards. This innovative gallery celebrates local talent by showcasing
+                        and promoting the works of emerging artists. Offering a platform for exposure, Dog Leg Gallery
+                        provides art enthusiasts with the opportunity to discover and purchase exciting, original
+                        pieces. Its unique location creates an intimate and dynamic environment for both artists and
+                        visitors. 
+                        <br>
+                        <br>
+                        If you’re an artist interested in exhibiting your work. Please reach out through the
+                        contacts page for more information.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn m-custom-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+                <p class="text-copyr">All Images and Content Copyright ©"Sarah Jane Ryan" 2024</p>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
+
 
     <!-- Banner template starts here  -->
     <div class="container">
@@ -105,7 +149,8 @@
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center">
                     <a href="dog.html">
-                        <img src="assets/img/dog.jpg" class="img-fluid rounded img-max my-3 mx-auto" alt="Responsive Logo image">
+                        <img src="assets/img/dog.jpg" class="img-fluid rounded img-max my-3 mx-auto"
+                            alt="Responsive Logo image">
                     </a>
                 </div>
             </div>
