@@ -108,6 +108,20 @@ body {
     color: #FFFFFF;
     font-size: 1.1rem;
 }
+.text-emph-light-hd {
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.text-emph-light {
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#
 .text-tab-hd {
     font-weight: 600;
     color: #a72828;
