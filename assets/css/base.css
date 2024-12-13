@@ -167,6 +167,10 @@ body {
     border-radius: 1em;
 }
 
+/* Add a scroll bar to the dropdown menus */
+.dropdown-font {
+    font-size: 1rem;
+}
 
 
 /* used for positioining on page - see media queries below */
