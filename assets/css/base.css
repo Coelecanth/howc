@@ -13,8 +13,12 @@ body {
 }
 
 .slabo {
+    font-family: "Titillium Web", sans-serif;
+}
+.titi {
     font-family: "Titillium Web";
 }
+
 .noticia {
     font-family: "Noticia Text";
 }
