@@ -85,7 +85,17 @@
                         alt="Responsive Logo image">
                 </a>
             </div>
+             <!-- insert point -->
+             <div class="navbar-black text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn mx-3 text-white cust-btn border border-secondary"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <strong>
+                        What is the Deck of Inspirations?
+                    </strong><i class="fa-solid fa-caret-down"></i>
+                </button>
 
+            </div>
             <nav class="navbar navbar-expand-lg navbar-black" aria-label="middle-nav">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -159,7 +169,38 @@
         </nav>
     </header>
     <!-- navbar end  -->
+    <!-- Modal placed outside navbar -->
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="text-center noticia"><img src="assets/img/artists.jpg"
+                            class="img-fluid rounded img-max-mod my-3" alt="Responsive Logo image">
+                        <br>Deck of Insiprations
+                    </h4>
+                    <hr>
+                    <div class="noticia text-emph-mod">
+                        What is the Deck of Insiprations?
+                    </div>
+                    <p class="ms-2 text-mod">
+                        The Deck of Insiprations is a curated database of performers,
+                        artists, and innovators who have profoundly influenced director Sarah Jane throughout her
+                        journey as an artist and her role as a teacher. Their teachings, creativity, and groundbreaking
+                        work serve as a foundation for the workshops and educational offerings at the House of Wild
+                        Cards, ensuring their legacy inspires new generations of creators. This resource celebrates the
+                        artistic excellence and innovation that permeate every aspect of the House’s programming.
 
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn m-custom-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+                <p class="text-copyr">All Images and Content Copyright ©"Sarah Jane Ryan" 2024</p>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
     <!-- Banner template starts here  -->
     <div class="container">
         <div class="banner-panel-art text-center">
@@ -219,29 +260,7 @@
             <!-- end of carousel  -->
 
 
-            <!-- start text block  -->
-            <hr class="text-white">
-            <div class="row">
-                <div class="col-12">
-                    <span class="text-center">
-                        <img src="assets/img/artists.jpg" class="img-fluid rounded img-max-mod my-3"
-                            alt="Responsive Logo image">
-                    </span>
-                    <div class="noticia text-emph-light-hd text-white mb-3">
-                        What is the Deck of Insiprations?
-                    </div>
-
-                    <p class="px-4 text-emph-light">The Deck of Insiprations is a curated database of performers,
-                        artists, and innovators who have profoundly influenced director Sarah Jane throughout her
-                        journey as an artist and her role as a teacher. Their teachings, creativity, and groundbreaking
-                        work serve as a foundation for the workshops and educational offerings at the House of Wild
-                        Cards, ensuring their legacy inspires new generations of creators. This resource celebrates the
-                        artistic excellence and innovation that permeate every aspect of the House’s programming.
-                    </p>
-                </div>
-                <p class="text-copyr">All Images and Content Copyright ©"Sarah Jane Ryan" 2024</p>
-            </div>
-            <!-- end of text block  -->
+            
         </div>
     </div>
 
